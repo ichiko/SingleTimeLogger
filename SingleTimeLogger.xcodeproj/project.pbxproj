@@ -19,6 +19,12 @@
 		ECC147971872EA5000DF1F23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC1477F1872EA4F00DF1F23 /* UIKit.framework */; };
 		ECC1479F1872EA5000DF1F23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECC1479D1872EA5000DF1F23 /* InfoPlist.strings */; };
 		ECC147A11872EA5000DF1F23 /* SingleTimeLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC147A01872EA5000DF1F23 /* SingleTimeLoggerTests.m */; };
+		ECC147B51872EAEA00DF1F23 /* ActivityLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC147AB1872EAEA00DF1F23 /* ActivityLog.m */; };
+		ECC147B61872EAEA00DF1F23 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC147AD1872EAEA00DF1F23 /* DataManager.m */; };
+		ECC147B71872EAEA00DF1F23 /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC147AF1872EAEA00DF1F23 /* EntryViewController.m */; };
+		ECC147B81872EAEA00DF1F23 /* RecordModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECC147B01872EAEA00DF1F23 /* RecordModel.xcdatamodeld */; };
+		ECC147B91872EAEA00DF1F23 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC147B31872EAEA00DF1F23 /* RecordViewController.m */; };
+		ECC147BD1872EE5D00DF1F23 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC147BF1872EE5D00DF1F23 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ECC147781872EA4F00DF1F23 /* SingleTimeLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleTimeLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC147781872EA4F00DF1F23 /* きろっかー.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "きろっかー.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC1477B1872EA4F00DF1F23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ECC1477D1872EA4F00DF1F23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		ECC1477F1872EA4F00DF1F23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -48,6 +54,16 @@
 		ECC1479C1872EA5000DF1F23 /* SingleTimeLoggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SingleTimeLoggerTests-Info.plist"; sourceTree = "<group>"; };
 		ECC1479E1872EA5000DF1F23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ECC147A01872EA5000DF1F23 /* SingleTimeLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleTimeLoggerTests.m; sourceTree = "<group>"; };
+		ECC147AA1872EAEA00DF1F23 /* ActivityLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityLog.h; sourceTree = "<group>"; };
+		ECC147AB1872EAEA00DF1F23 /* ActivityLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityLog.m; sourceTree = "<group>"; };
+		ECC147AC1872EAEA00DF1F23 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		ECC147AD1872EAEA00DF1F23 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		ECC147AE1872EAEA00DF1F23 /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
+		ECC147AF1872EAEA00DF1F23 /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
+		ECC147B11872EAEA00DF1F23 /* RecordModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecordModel.xcdatamodel; sourceTree = "<group>"; };
+		ECC147B21872EAEA00DF1F23 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		ECC147B31872EAEA00DF1F23 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		ECC147BE1872EE5D00DF1F23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +103,7 @@
 		ECC147791872EA4F00DF1F23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ECC147781872EA4F00DF1F23 /* SingleTimeLogger.app */,
+				ECC147781872EA4F00DF1F23 /* きろっかー.app */,
 				ECC147931872EA5000DF1F23 /* SingleTimeLoggerTests.xctest */,
 			);
 			name = Products;
@@ -107,8 +123,11 @@
 		ECC147811872EA4F00DF1F23 /* SingleTimeLogger */ = {
 			isa = PBXGroup;
 			children = (
+				ECC147BC1872EB1100DF1F23 /* model */,
+				ECC147BB1872EAF800DF1F23 /* controller */,
 				ECC1478A1872EA5000DF1F23 /* AppDelegate.h */,
 				ECC1478B1872EA5000DF1F23 /* AppDelegate.m */,
+				ECC147BF1872EE5D00DF1F23 /* Storyboard.storyboard */,
 				ECC1478D1872EA5000DF1F23 /* Images.xcassets */,
 				ECC147821872EA4F00DF1F23 /* Supporting Files */,
 			);
@@ -144,6 +163,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ECC147BB1872EAF800DF1F23 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECC147AE1872EAEA00DF1F23 /* EntryViewController.h */,
+				ECC147AF1872EAEA00DF1F23 /* EntryViewController.m */,
+				ECC147B21872EAEA00DF1F23 /* RecordViewController.h */,
+				ECC147B31872EAEA00DF1F23 /* RecordViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		ECC147BC1872EB1100DF1F23 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				ECC147B01872EAEA00DF1F23 /* RecordModel.xcdatamodeld */,
+				ECC147AB1872EAEA00DF1F23 /* ActivityLog.m */,
+				ECC147AA1872EAEA00DF1F23 /* ActivityLog.h */,
+				ECC147AC1872EAEA00DF1F23 /* DataManager.h */,
+				ECC147AD1872EAEA00DF1F23 /* DataManager.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,7 +203,7 @@
 			);
 			name = SingleTimeLogger;
 			productName = SingleTimeLogger;
-			productReference = ECC147781872EA4F00DF1F23 /* SingleTimeLogger.app */;
+			productReference = ECC147781872EA4F00DF1F23 /* きろっかー.app */;
 			productType = "com.apple.product-type.application";
 		};
 		ECC147921872EA5000DF1F23 /* SingleTimeLoggerTests */ = {
@@ -221,6 +263,7 @@
 			files = (
 				ECC147861872EA4F00DF1F23 /* InfoPlist.strings in Resources */,
 				ECC1478E1872EA5000DF1F23 /* Images.xcassets in Resources */,
+				ECC147BD1872EE5D00DF1F23 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC147B81872EAEA00DF1F23 /* RecordModel.xcdatamodeld in Sources */,
 				ECC1478C1872EA5000DF1F23 /* AppDelegate.m in Sources */,
+				ECC147B61872EAEA00DF1F23 /* DataManager.m in Sources */,
+				ECC147B71872EAEA00DF1F23 /* EntryViewController.m in Sources */,
 				ECC147881872EA4F00DF1F23 /* main.m in Sources */,
+				ECC147B91872EAEA00DF1F23 /* RecordViewController.m in Sources */,
+				ECC147B51872EAEA00DF1F23 /* ActivityLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +325,14 @@
 				ECC1479E1872EA5000DF1F23 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECC147BF1872EE5D00DF1F23 /* Storyboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC147BE1872EE5D00DF1F23 /* en */,
+			);
+			name = Storyboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -317,6 +373,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -350,6 +407,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -359,12 +417,12 @@
 		ECC147A51872EA5000DF1F23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = Picon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SingleTimeLogger/SingleTimeLogger-Prefix.pch";
 				INFOPLIST_FILE = "SingleTimeLogger/SingleTimeLogger-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "きろっかー";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -372,12 +430,12 @@
 		ECC147A61872EA5000DF1F23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = Picon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SingleTimeLogger/SingleTimeLogger-Prefix.pch";
 				INFOPLIST_FILE = "SingleTimeLogger/SingleTimeLogger-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "きろっかー";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -443,6 +501,7 @@
 				ECC147A61872EA5000DF1F23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECC147A71872EA5000DF1F23 /* Build configuration list for PBXNativeTarget "SingleTimeLoggerTests" */ = {
 			isa = XCConfigurationList;
@@ -451,8 +510,22 @@
 				ECC147A91872EA5000DF1F23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECC147B01872EAEA00DF1F23 /* RecordModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECC147B11872EAEA00DF1F23 /* RecordModel.xcdatamodel */,
+			);
+			currentVersion = ECC147B11872EAEA00DF1F23 /* RecordModel.xcdatamodel */;
+			path = RecordModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = ECC147701872EA4F00DF1F23 /* Project object */;
 }
