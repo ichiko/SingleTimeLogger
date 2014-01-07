@@ -104,7 +104,7 @@
         int mm = (int)((tmp - hh * 60 * 60) / 60);
         if (dd > 0)
         {
-            timeBeforeLabel.text = [[NSString alloc] initWithFormat:@"%02d日 %02d:%02d 前", dd, hh, mm];
+            timeBeforeLabel.text = [[NSString alloc] initWithFormat:@"%d日 %02d:%02d 前", dd, hh, mm];
         }
         else
         {

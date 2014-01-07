@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ECC147771872EA4F00DF1F23"
-               BuildableName = "SingleTimeLogger.app"
+               BuildableName = "&#12365;&#12429;&#12387;&#12363;&#12540;.app"
                BlueprintName = "SingleTimeLogger"
                ReferencedContainer = "container:SingleTimeLogger.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ECC147771872EA4F00DF1F23"
-            BuildableName = "SingleTimeLogger.app"
+            BuildableName = "&#12365;&#12429;&#12387;&#12363;&#12540;.app"
             BlueprintName = "SingleTimeLogger"
             ReferencedContainer = "container:SingleTimeLogger.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ECC147771872EA4F00DF1F23"
-            BuildableName = "SingleTimeLogger.app"
+            BuildableName = "&#12365;&#12429;&#12387;&#12363;&#12540;.app"
             BlueprintName = "SingleTimeLogger"
             ReferencedContainer = "container:SingleTimeLogger.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ECC147771872EA4F00DF1F23"
-            BuildableName = "SingleTimeLogger.app"
+            BuildableName = "&#12365;&#12429;&#12387;&#12363;&#12540;.app"
             BlueprintName = "SingleTimeLogger"
             ReferencedContainer = "container:SingleTimeLogger.xcodeproj">
          </BuildableReference>
