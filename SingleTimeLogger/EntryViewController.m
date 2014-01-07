@@ -101,7 +101,7 @@
         float tmp = [now timeIntervalSinceDate:activity.timestamp];
         int dd = (int)(tmp / (60 * 60 * 24));
         int hh = (int)((tmp - dd * 60 * 60 * 24) / (60 * 60));
-        int mm = (int)((tmp - hh * 60 * 60) / 60);
+        int mm = (int)((tmp - dd * 60 * 60 * 24 - hh * 60 * 60) / 60);
         if (dd > 0)
         {
             timeBeforeLabel.text = [[NSString alloc] initWithFormat:@"%d日 %02d:%02d 前", dd, hh, mm];
